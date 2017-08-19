@@ -1,0 +1,38 @@
+﻿@model VP.ApiSample.ViewModels.LyricsViewModel
+
+@{
+    ViewData["Title"] = "Lyrics";
+}
+
+<span style="white-space: pre-line">
+    @Model.Lyrics.Body
+</span>
+
+<br />
+<br />
+
+@if (!Model.HasToken)
+{
+    <a class="btn btn-primary" href="https://accounts.spotify.com/authorize/?client_id=9e83ce9f36ae4d97bbd53a5521791c52&response_type=code&redirect_uri=http%3A%2F%2Flocalhost:52170%2FAuth%2FIndex%2F&scope=user-read-private%20user-read-email%20playlist-modify-private%20playlist-modify-public">Integrar Spotify</a>
+}
+else
+{
+    if (Model.Playlists != null)
+    {
+        @using (Html.BeginForm("Playlist", "Lyrics", FormMethod.Post))
+        {
+            <span>Adicione em sua playlist!</span>
+            <br />
+            <br />
+            @Html.DropDownList("playlistId", Model.Playlists)
+            <input type="submit" value="Adicionar" class="btn btn-primary" />
+        }
+    }
+}
+
+@if (Model.TrackAdded)
+{
+    <br />
+    <h3 style="color:green">@Html.Raw("Música incluída com sucesso!")</h3>
+}
+

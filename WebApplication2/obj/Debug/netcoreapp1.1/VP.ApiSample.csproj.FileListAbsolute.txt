@@ -1,0 +1,9 @@
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\bin\Debug\netcoreapp1.1\VP.ApiSample.deps.json
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\bin\Debug\netcoreapp1.1\VP.ApiSample.runtimeconfig.json
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\bin\Debug\netcoreapp1.1\VP.ApiSample.runtimeconfig.dev.json
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\bin\Debug\netcoreapp1.1\VP.ApiSample.dll
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\bin\Debug\netcoreapp1.1\VP.ApiSample.pdb
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\netcoreapp1.1\VP.ApiSample.csprojResolveAssemblyReference.cache
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\netcoreapp1.1\VP.ApiSample.AssemblyInfo.cs
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\netcoreapp1.1\VP.ApiSample.dll
+C:\Users\danruziska\Documents\Visual Studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\netcoreapp1.1\VP.ApiSample.pdb

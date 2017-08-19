@@ -1,0 +1,29 @@
+﻿@model List<VP.ApiSample.Models.Track>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br />
+<div>
+    @using (Html.BeginForm("Search", "Home", FormMethod.Get))
+    {
+        <span>Procure pelo nome da música</span>
+        <br />
+        <br />
+        @Html.TextBox("searchQuery")
+        <input type="submit" value="Procurar" class="btn btn-primary" />
+    }
+    <br />
+    <br />
+    @if (Model != null && Model.Count > 0)
+    {
+        <ul>
+            @foreach (var track in Model)
+            {
+                <li>@Html.ActionLink(@String.Format("{0} - {1}", track.ArtistName, track.TrackName), "Index", "Lyrics", new { id = track.ID })</li>
+            }
+        </ul>
+    }    
+
+</div>
